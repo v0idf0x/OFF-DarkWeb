@@ -3,7 +3,7 @@ Dark web scraper written in python, that saves the HTML , images of the pages in
 
 
 Before running the script , install tor service
-sudo apt install tor -y
-sudo nano /etc/tor/torrc
-uncomment the line that contains ControlPort
-Set the Cookie Authentication for security reasons
+1. sudo apt install tor -y
+2. sudo nano /etc/tor/torrc
+3. uncomment the line that contains ControlPort
+4. Set the Cookie Authentication for security reasons
